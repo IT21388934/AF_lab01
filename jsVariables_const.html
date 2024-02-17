@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My HTML Document</title>
+  </head>
+  <body>
+    <script>
+      const a = {
+        prop1: 10,
+        prop2: 9,
+      };
+      // it is allowed to change the properties of a constant object
+      a.prop1 = 3;
+
+      // it is not allowed to change the reference of a constant object
+      //   a = {
+      //     b: 10,
+      //     prop2: 9,
+      //   };
+
+      document.write(a.prop1);
+    </script>
+  </body>
+</html>
